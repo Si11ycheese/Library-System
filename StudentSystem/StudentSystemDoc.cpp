@@ -45,6 +45,9 @@ BOOL CStudentSystemDoc::OnNewDocument()
 	// TODO: 在此添加重新初始化代码
 	// (SDI 文档将重用该文档)
 
+	//设置左侧标题
+	SetTitle(TEXT("图书馆管理系统"));
+
 	return TRUE;
 }
 

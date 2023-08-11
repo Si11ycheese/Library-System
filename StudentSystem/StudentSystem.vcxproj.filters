@@ -36,6 +36,45 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CInfoFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginDig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDisplayView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CModifyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CReport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRecord_bk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CModify_bk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CADD_BK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBorrow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CReturn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StudentSystem.cpp">
@@ -51,6 +90,45 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="StudentSystemView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfoFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginDig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisplayView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CModifyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CReport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRecord_bk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CModify_bk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CADD_BK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBorrow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CReturn.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -69,6 +147,24 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\StudentSystem.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\green.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\red.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\QQ图片20230713202514.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\sillycheese_2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\sillycheese_1.ico">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

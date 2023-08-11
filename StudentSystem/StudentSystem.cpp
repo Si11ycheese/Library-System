@@ -11,6 +11,8 @@
 #include "StudentSystemDoc.h"
 #include "StudentSystemView.h"
 
+#include"CLoginDig.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -68,8 +70,11 @@ BOOL CStudentSystemApp::InitInstance()
 	InitCtrls.dwICC = ICC_WIN95_CLASSES;
 	InitCommonControlsEx(&InitCtrls);
 
-	CWinApp::InitInstance();
+	//创建登录窗口
 
+	CWinApp::InitInstance();
+	CLoginDig login;
+	login.DoModal();
 
 	// 初始化 OLE 库
 	if (!AfxOleInit())

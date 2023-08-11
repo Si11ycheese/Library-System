@@ -4,6 +4,17 @@
 
 #pragma once
 
+//自定义消息
+#define NM_A (WM_USER+100)
+#define NM_B (WM_USER+101)
+#define NM_C (WM_USER+102)
+#define NM_D (WM_USER+103)
+#define NM_E (WM_USER+104)
+#define NM_F (WM_USER+105)
+#define NM_G (WM_USER+106)
+#define NM_H (WM_USER+107)
+#define NM_I (WM_USER+108)
+
 class CMainFrame : public CFrameWnd
 {
 	
@@ -37,6 +48,21 @@ protected:
 	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	DECLARE_MESSAGE_MAP()
 
+private:
+	CSplitterWnd _splitter;//切分窗口类对象
+
+	virtual BOOL OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext);
+
+	afx_msg LRESULT OnMyChange(WPARAM wparam, LPARAM lparam);
+public:
+	afx_msg void On32775();
+	afx_msg void On32771();
+	afx_msg void On32772();
+	afx_msg void On32773();
+	afx_msg void On32774();
+	afx_msg void On32776();
+	afx_msg void On32777();
+	afx_msg void On32778();
+	afx_msg void On32779();
+
 };
-
-

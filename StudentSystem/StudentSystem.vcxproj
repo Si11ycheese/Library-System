@@ -23,20 +23,20 @@
     <ProjectGuid>{5A085B4D-91B0-499C-9A52-BE1D961C4505}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <RootNamespace>StudentSystem</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
@@ -44,14 +44,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
@@ -138,7 +138,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -183,6 +183,19 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CAddDlg.h" />
+    <ClInclude Include="CADD_BK.h" />
+    <ClInclude Include="CBorrow.h" />
+    <ClInclude Include="CDisplayView.h" />
+    <ClInclude Include="CInfoFile.h" />
+    <ClInclude Include="CLoginDig.h" />
+    <ClInclude Include="CModifyDlg.h" />
+    <ClInclude Include="CModify_bk.h" />
+    <ClInclude Include="CRecord_bk.h" />
+    <ClInclude Include="CReport.h" />
+    <ClInclude Include="CReturn.h" />
+    <ClInclude Include="CSelectView.h" />
+    <ClInclude Include="CUserDlg.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -192,6 +205,19 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CAddDlg.cpp" />
+    <ClCompile Include="CADD_BK.cpp" />
+    <ClCompile Include="CBorrow.cpp" />
+    <ClCompile Include="CDisplayView.cpp" />
+    <ClCompile Include="CInfoFile.cpp" />
+    <ClCompile Include="CLoginDig.cpp" />
+    <ClCompile Include="CModifyDlg.cpp" />
+    <ClCompile Include="CModify_bk.cpp" />
+    <ClCompile Include="CRecord_bk.cpp" />
+    <ClCompile Include="CReport.cpp" />
+    <ClCompile Include="CReturn.cpp" />
+    <ClCompile Include="CSelectView.cpp" />
+    <ClCompile Include="CUserDlg.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -210,6 +236,12 @@
     <None Include="res\StudentSystem.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\QQ图片20230713202514.ico" />
+    <Image Include="..\..\..\sillycheese_1.ico" />
+    <Image Include="..\..\..\sillycheese_2.ico" />
+    <Image Include="res\green.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\red.ico" />
     <Image Include="res\StudentSystem.ico" />
     <Image Include="res\StudentSystemDoc.ico" />
   </ItemGroup>
